@@ -9,6 +9,7 @@ import random
 
 import numpy as np
 from copy import deepcopy
+import seaborn as sns
 
 from data_ops import load_dataset
 from data_ops import manual_describe
