@@ -8,8 +8,7 @@ This project was carried out with the aim to predict the identity of handwritten
 #### Motivation
 
 
-#### Quick Start
-The datasets for this project for this project may be found under the `train`, `test`, and `valid` subdirectories under the `data/dataset` directory.
+#### Quick StartThe datasets for this project for this project may be found under the `train`, `test`, and `valid` subdirectories under the `data/dataset` directory.
 
 To run the scripts, type as below in the Terminal:
 
