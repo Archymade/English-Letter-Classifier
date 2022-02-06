@@ -13,8 +13,8 @@ def import_model(C_param = 1.0, probability = True,
                  n_jobs = -1, shrinking = False, random_state = 42):
     ''' Return model object. '''
     
-    return SVC(probability = probability, C = C_param, random_state = random_state,
-               shrinking = shrinking)
+    return SVC(probability = probability, C = C_param,
+               random_state = random_state, shrinking = shrinking)
 
 
 def create_pipeline(model, n_components = 7, dist_type = 'normal', whiten = True):

@@ -36,7 +36,7 @@ def configure_args():
     
     args.add_argument('--n_jobs', default=-1, type=int, help='Number of threads')
 
-    args.add_argument('--C', default = 2, type = int, help = 'Regularization Factor')
+    args.add_argument('--C', default = 1.5, type = int, help = 'Regularization Factor')
     
     args.add_argument('--r_state', default=42, type=int, help='Random state')
 
@@ -53,7 +53,7 @@ def configure_args():
     
     args.add_argument('--whiten', default=True, type=bool, help='Apply PCA whitening?')
     
-    args.add_argument('--n_components', default=13, type=int, help='Number of principal components')
+    args.add_argument('--n_components', default=14, type=int, help='Number of principal components')
     
     args.add_argument('--dist_type', default='normal', type=str, choices=['normal', 'uniform'],
                       help='Output distribution for quantile transformer')
@@ -266,7 +266,11 @@ def main():
     print(f'>>> Program run successfully! Total Time elapsed : {time.time() - origin_time :.5f} secs.')
 
 
+
+
 if __name__ == '__main__':
     main()
+
+
 
 

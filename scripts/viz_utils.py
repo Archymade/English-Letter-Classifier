@@ -60,11 +60,12 @@ def get_correlation_map(data, path, save = True, h = 20, w = 10):
 def visualize_confusion_matrix(model, X, y, split, path, save = True):
     """ Display Confusion Matrix visually."""
 
-    plot_confusion_matrix(model, X, y)
+    fig, ax = plt.subplots(nrows = 1, ncols = 1, figsize = (20, 20))
+    plt.title(f'Confusion matrix for {split.upper()}', fontsize = 30, pad = 30)
+    plot_confusion_matrix(model, X, y, ax = ax)
+    
     if save:
         plt.savefig(os.path.join(path, f'{split}-confusion-matrix.png'), dpi = 300)
-    if save:
-        plt.savefig(f'{path}.png', dpi = 300)
     
     plt.show()
     plt.close('all')
