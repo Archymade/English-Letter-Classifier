@@ -1,6 +1,7 @@
 # Project Title:
 ### English Alphabet Classification
 ___
+
 #### Overview
 This project was carried out with the aim to predict the identity of handwritten English alphabets based on information encoded via image pixels. The data was sourced from the [OpenML website](www.openml.org).
 
@@ -41,7 +42,7 @@ Others may be found in the `main.py` script.
 
 
 #### Performance Report
-The learnimg algorithm selected for the project was a support vector machine (SVM). After training, a performance of `~ 92 %` was recorded across board for the major classification metrics (accuracy, f1-score, recall, and precision), via `macro` averaging.
+The learning algorithm selected for the project was a support vector machine (SVM). After training, a test set performance of `~ 92 %` was recorded across board for the major classification metrics (accuracy, f1-score, recall, and precision), via `macro` averaging.
 
 
 
