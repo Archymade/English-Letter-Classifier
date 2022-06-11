@@ -3,7 +3,7 @@
 ___
 
 #### Overview
-This project was carried out with the aim to predict the identity of handwritten English alphabets based on information encoded via image pixels. The data was sourced from the [OpenML website](www.openml.org).
+This project was carried out with the aim to predict the identity of handwritten English alphabets based on information encoded via image pixels. The data was sourced from the [OpenML website](https://www.openml.org).
 
 
 #### Motivation
