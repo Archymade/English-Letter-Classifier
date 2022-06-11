@@ -42,7 +42,7 @@ Others may be found in the `main.py` script.
 
 
 #### Performance Report
-The learning algorithm selected for the project was a support vector machine (SVM). After training, a test set performance of `~ 92 %` was recorded across board for the major classification metrics (accuracy, f1-score, recall, and precision), via `macro` averaging.
+The learning algorithms selected for the project were: `LogisticRegression`, a support vector machine (SVM), and Stochastic Gradient Descent `(SGDClassifier)`. The SVM performed best after training, with a test set performance of `~ 92 %` across board for the major classification metrics (accuracy, f1-score, recall, and precision), via `macro` averaging.
 
 
 
